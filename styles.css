@@ -1,0 +1,45 @@
+#section1 {
+	display: flex;
+}
+
+path {
+	stroke: black;
+    fill: none;
+}
+
+#line-container path {
+    stroke: steelblue;
+    stroke-width: 2;
+}
+
+#handle-container circle {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: rgba(255,255,255,0.5);
+}
+
+line {
+    stroke: black;
+}
+
+text {
+    font-family: Arial;
+    font-size: 9pt;
+}
+
+#output-line {
+	stroke: red;
+	stroke-width: 1px;
+}
+
+#chart1 {
+	width: calc(100% - 150px);
+	height: 200px;
+	border: solid black 1px;
+}
+
+#chart2 {
+	width: calc(100% - 150px);
+	height: 200px;
+	border: solid black 1px;
+}

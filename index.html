@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Absorption finder</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+	<!-- <script type="text/javascript" src="d3.v3.js"></script> -->
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript">
+
+	</script>
+</head>
+<body>
+
+<button id="regress">REGRESS</button>
+
+<section id="section1">
+	<svg id="chart1"></svg>
+	<textarea id="data-input"></textarea>
+</section>
+<section id="section2">
+	<div>
+		<label for="line-parameters">Line parameters:</label>
+		<input id="line-parameters" name="line-parameters" readonly></input>
+	</div>
+	<svg id="chart2"></svg>
+	<div>
+		x: <input type="text" id="x-input" />
+		y: <input type="text" id="y-output" readonly/>
+	</div>
+
+</section>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
